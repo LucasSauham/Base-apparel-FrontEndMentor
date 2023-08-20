@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive_style.css">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="head-logo">
+        <img src="images/logo.svg">
+    </div>
+    <div class="head-text">
+      <div class="head-text-title">
+        <ul>
+          <li id="principal-title"> We're</li>
+          <li> Coming</li>
+          <li> Soon</li>
+        </ul>
+        <p>Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      </div>
+      <div class="head-text-inputs">
+        <input type="email" placeholder="Email Address" id="email">
+        <img src=images/icon-error.svg id="img-status">
+        <input type ="submit" value=">" onclick="valida_email();">
+      </div>
+      <p id="status-email"></p>
+    </div>
+    <div class="head-img">
+    </div>
+  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Lucas Sauham</a>.
+    </p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
