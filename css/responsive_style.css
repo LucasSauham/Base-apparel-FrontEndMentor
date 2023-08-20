@@ -1,0 +1,38 @@
+@media only screen and (max-device-width: 960px) {
+    .grid-container{
+        display: grid;
+        grid-template-rows: 0.5fr 1.5fr 3fr;
+    }
+
+    .head-logo{
+        grid-row: 0.5;
+        grid-column: span 2;
+    }
+
+    
+
+    .head-text{
+        grid-row: 3;
+        grid-column: span 2;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .head-text-title{
+        margin-top: 20px;
+    }
+
+    .head-text-title li{
+        font-size: 40px;
+
+    }
+
+    .head-img{
+        background-image: url("../images/hero-mobile.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        grid-row: 2;
+        grid-column: span 3;
+    }
+
+}
